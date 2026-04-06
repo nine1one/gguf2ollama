@@ -28,7 +28,15 @@ ollama create <model-name> -f Modelfile
 
 ---
 
-### 3. Run the Model
+### 3. List all the Models and look for the <model-name>
+
+```
+ollama list
+```
+
+---
+
+### 4. Run the Model
 
 ```
 ollama run <model-name>
